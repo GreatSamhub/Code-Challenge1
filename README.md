@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+By Samuel Thongo
+
+>>>>>>> f4fe3b8a66b49cac7fd00a237865e9523b50bb85
 #Description
 This project applies Jaa Script concepts to undertake the tasts
 
@@ -19,4 +24,7 @@ This program will tell users the different speeds and whether there is a demerit
 
 #Challenge3
 This program will allow the user to input any gross salary amount and calculate the deductions in terms of payee, NHIF and NSSF. It will also output the net pay after all deductions are made from the gross salary.
+<<<<<<< HEAD
 
+=======
+>>>>>>> f4fe3b8a66b49cac7fd00a237865e9523b50bb85
