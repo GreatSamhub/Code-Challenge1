@@ -1,3 +1,5 @@
+By Samuel Thongo
+
 #Description
 This project applies Jaa Script concepts to undertake the tasts
 
