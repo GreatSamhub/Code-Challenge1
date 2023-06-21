@@ -1,5 +1,7 @@
-function grade(marks){
-    if (marks < 0 || marks > 100){
+const prompt = require('prompt-sync')()// to import prompt sync module
+function grade(){
+    const marks = parseInt(prompt('Enter the marks: ')); //To allow the user to input marks
+    if (marks < 0 || marks > 100){  
     return "input a valid grade"
     }else if (marks >= 0 && marks < 40){
         return "grade E"
@@ -13,20 +15,8 @@ function grade(marks){
         return `grade A`
     }
 }
-console.log(grade(50))
+console.log(grade())
 
 
-function speedDetector(speed){
-    if (speed < 70){
-      return "ok"
-    }else{
-      const excess = Math.floor((speed -70)/5)
-      if (excess <= 12){
-          return excess
-      }else{
-          return `licence suspended`
-      }
-    }
-  }
-  console.log(speedDetector(45))
+
 
